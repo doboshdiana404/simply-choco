@@ -1,21 +1,94 @@
 .footer {
-  padding: 20px 0;
+  background-color: #1e1823;
 }
-.footer-desc {
-  text-align: center;
+
+.footer-container {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
-.footer-link {
-  position: relative;
+
+.footer-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
+  color: #fff;
+  max-width: 260px;
+  padding-bottom: 32px;
 }
-.footer-link::before {
-  content: '';
-  position: absolute;
-  bottom: 6%;
-  left: 50%;
-  transform: translateX(-50%) skewX(-12deg);
-  z-index: -1;
-  width: 110%;
-  height: 24%;
-  background-color: #41d1ff;
-  transition: 200ms ease;
+
+.footer-subtitle {
+  font-size: 14px;
+  line-height: 1.29;
+  color: #fff;
+  margin-bottom: 14px;
+}
+
+.footer-contact {
+  padding-bottom: 32px;
+}
+
+.footer-contact-list {
+}
+.footer-item {
+  margin-bottom: 4px;
+}
+.footer-item-link {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+.footer-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.footer-menu-link {
+  color: #fff;
+}
+
+.footer-nav {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 32px;
+}
+
+.footer-form {
+  display: flex;
+  padding-top: 32px;
+}
+
+.footer-email {
+  border: 1.5px solid rgba(255, 255, 255, 0.15);
+  border-radius: 30px;
+  padding: 14px 18px;
+  width: 207px;
+  height: 45px;
+  background-color: transparent;
+  margin-right: 8px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  outline: transparent;
+}
+.footer-email::placeholder {
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.footer-submit-btn {
+  border-radius: 100px;
+  padding: 14px 26px;
+  width: 120px;
+  height: 45px;
+  background-color: #fd9222;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

@@ -1,0 +1,64 @@
+.made {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.made-container {
+}
+
+picture {
+  flex-shrink: 0;
+}
+
+.made-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 32px;
+}
+
+.made-desc {
+  border-radius: 15px;
+  background-color: #fff;
+  padding: 32px;
+}
+
+.made-image {
+  border-radius: 15px;
+}
+
+.made-subtitle {
+  max-width: 350px;
+  font-size: 18px;
+  line-height: 1.33;
+  margin-bottom: 20px;
+}
+
+.made-list {
+  max-width: 452px;
+}
+
+.made-item {
+  margin-bottom: 24px;
+  position: relative;
+  padding-left: 16px;
+}
+
+.made-item-text {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
+.made-item::before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #4c4c4c;
+  border: 1px solid #eceded;
+  flex-shrink: 0;
+  position: absolute;
+  top: 5px;
+  left: 0;
+}

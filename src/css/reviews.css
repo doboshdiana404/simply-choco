@@ -1,0 +1,102 @@
+.rewiews {
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+.rewiews-container {
+}
+
+.rewiews-list {
+  display: flex;
+  gap: 16px;
+  margin-top: 74px;
+  margin-bottom: 32px;
+  transition: transform 0.5s ease;
+}
+.rewiews-item {
+  width: calc((100% - 56px) / 3);
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 15px;
+  background-color: #fff;
+  height: 100%;
+  position: relative;
+  text-align: center;
+  min-width: 335px;
+}
+
+.rewiews-list-container {
+  width: 335px;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+}
+
+.rewiews-desc {
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-top: 56px;
+  padding-bottom: 24px;
+  text-align: center;
+}
+
+.rewiews-image {
+  border-radius: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.rewiews-subtitle {
+  font-size: 18px;
+  line-height: 1.33;
+  margin-bottom: 24px;
+}
+.rewiews-text {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  height: 72px;
+}
+.rewiews-btn {
+  font-weight: 600;
+  font-size: 14px;
+  border: 1px solid #fd9222;
+  border-radius: 100px;
+  width: 165px;
+  height: 41px;
+  margin: 0 auto;
+  display: block;
+  color: black;
+  background-color: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.rewiews-btn:hover,
+.rewiews-btn:focus {
+  background-color: #fd9222;
+  color: #fff;
+}
+
+.buttons-slider {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.button-slider {
+  background-color: rgba(17, 17, 17, 0.2);
+  border-radius: 50%;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
